@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Text, Image } from 'react-native';
 import { Icon, Button, Container, Header, Content, Left } from 'native-base';
-import CustomHeader from '../components/CustomHeader';
+import CustomHeader from './../components/CustomHeader';
 
 class HomeScreen extends Component {
   static navigationOptions = {
-    drawerLabel: 'Homes'
+    drawerLabel: 'Home'
   };
 
   render() {

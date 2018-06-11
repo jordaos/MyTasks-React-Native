@@ -7,8 +7,8 @@ import { Container, Content, Icon, Header, Body } from 'native-base'
 import { createDrawerNavigator, DrawerItems } from 'react-navigation'
 
 //custom files 
-import SettingsScreen from './screen/SettingsScreen'
-import HomeScreen from "./screen/HomeScreen";
+import SettingsScreen from './src/screen/SettingsScreen'
+import HomeScreen from "./src/screen/HomeScreen";
 
 export default class App extends Component {
   constructor() {
@@ -43,7 +43,7 @@ const CustomDrawerContentComponent = (props) => (
       <Body>
         <Image
           style={styles.drawerImage}
-          source={require('./assets/icons/icon.png')} />
+          source={require('./src/assets/icons/icon.png')} />
       </Body>
     </Header>
     <Content>
